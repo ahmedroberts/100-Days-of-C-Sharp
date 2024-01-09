@@ -6,6 +6,8 @@ namespace ConsoleApp001
     {
         static void Main(string[] args)
         {
+            // Watching YouTubes: https://www.youtube.com/watch?v=M5ugY7fWydE Derek Banas
+            // & https://www.youtube.com/watch?v=0QUgvfuKvWU Microsoft Developer
             //Console.ForegroundColor = ConsoleColor.DarkGreen;
             //Console.BackgroundColor = ConsoleColor.DarkBlue;
             //Console.Clear();
