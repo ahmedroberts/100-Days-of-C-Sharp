@@ -8,6 +8,7 @@ namespace ConsoleApp001
         {
             // Watching YouTubes: https://www.youtube.com/watch?v=M5ugY7fWydE Derek Banas
             // & https://www.youtube.com/watch?v=0QUgvfuKvWU Microsoft Developer
+            // $ https://www.youtube.com/watch?v=wxznTygnRfQ Bro Code
             //Console.ForegroundColor = ConsoleColor.DarkGreen;
             //Console.BackgroundColor = ConsoleColor.DarkBlue;
             //Console.Clear();
@@ -35,6 +36,17 @@ namespace ConsoleApp001
 
             Console.WriteLine("Biggest Long : {0}", long.MaxValue);
             Console.WriteLine("Smallest Long : {0}", long.MinValue);
+
+            Console.WriteLine("Biggest Double : {0}", Double.MaxValue);
+            double dblPiValu = 3.14159265358979;
+            double dblBigNum = 3.00000000001109;
+            Console.WriteLine("DBL : PI + bigNum = {0}", dblPiValu + dblBigNum);
+
+            Console.WriteLine("Biggest Float : {0}", float.MaxValue);
+            double fltPiValu = 3.141592F;
+            double fltBigNum = 3.000009F;
+            Console.WriteLine("FLT : PI + bigNum = {0}", fltPiValu + fltBigNum);
+
 
         }
     }
