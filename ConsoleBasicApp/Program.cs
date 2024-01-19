@@ -47,7 +47,29 @@ namespace ConsoleApp001
             double fltBigNum = 3.000009F;
             Console.WriteLine("FLT : PI + bigNum = {0}", fltPiValu + fltBigNum);
 
+            // 21:39 Derek Banas
 
+            Console.WriteLine("Ahmed's Big Giveaway");
+            Console.WriteLine("Choose a door: 1, 2, or 3: ");
+            string userValue = Console.ReadLine();
+
+            if (userValue == "1")
+            {
+                string prizeMessage = "You won a cupcake!";
+                Console.WriteLine(prizeMessage);
+            }
+
+            else if ( userValue == "2")
+            {
+                string prizeMessage = "You won ice cream!";
+                Console.WriteLine(prizeMessage);
+            }
+            else
+            {
+                string prizeMessage = "You won a watch!";
+                Console.WriteLine(prizeMessage);
+            }
+            Console.ReadLine();
         }
     }
 }
