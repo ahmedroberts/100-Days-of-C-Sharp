@@ -12,13 +12,17 @@ namespace ConsoleApp001
             //Console.ForegroundColor = ConsoleColor.DarkGreen;
             //Console.BackgroundColor = ConsoleColor.DarkBlue;
             //Console.Clear();
-            Console.WriteLine("Jumbo, Rafiki");
+            Console.WriteLine("\n***********************************\n");
+            Console.WriteLine("    Jumbo, Rafiki\n    Raikage Training");
+            Console.WriteLine("\n***********************************\n");
+
             //Console.WriteLine("What is your name?");
             //Console.ForegroundColor = ConsoleColor.Magenta;
             //string? userName = Console.ReadLine();
             //Console.WriteLine($"Ohayo, {userName}!");
 
             // Variables
+            /*
             bool canIVote = true;
             Console.WriteLine("Can you vote?: {0}", canIVote);
             Console.WriteLine("Biggest Integer : {0}", int.MaxValue);
@@ -64,6 +68,18 @@ namespace ConsoleApp001
                 prizeMessage = "Apologies. That's not the game.";
             Console.WriteLine(prizeMessage);
             Console.ReadLine();
+            */
+
+            Console.WriteLine("\nRaikage's Big Give Away");
+            Console.Write("Choose a door: 1, 2, or 3: ");
+            string? userValue = Console.ReadLine();
+
+            string prizeMessage = (userValue == "1") ? "cupcake" : "ice cream";
+            Console.Write("You won a ");
+            Console.Write(prizeMessage);
+            Console.Write("!");
+            Console.ReadLine();
+
         }
     }
 }
