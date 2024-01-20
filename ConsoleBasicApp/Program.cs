@@ -49,7 +49,7 @@ namespace ConsoleApp001
 
             // 21:39 Derek Banas
 
-            Console.WriteLine("Ahmed's Big Giveaway");
+            Console.WriteLine("\n\nAhmed's Big Giveaway");
             Console.WriteLine("Choose a door: 1, 2, or 3: ");
             string userValue = Console.ReadLine();
 
@@ -59,14 +59,19 @@ namespace ConsoleApp001
                 Console.WriteLine(prizeMessage);
             }
 
-            else if ( userValue == "2")
+            else if (userValue == "2")
             {
                 string prizeMessage = "You won ice cream!";
                 Console.WriteLine(prizeMessage);
             }
-            else
+            else if (userValue == "3")
             {
                 string prizeMessage = "You won a watch!";
+                Console.WriteLine(prizeMessage);
+            }
+            else
+            {
+                string prizeMessage = "That's not the game. You lose.";
                 Console.WriteLine(prizeMessage);
             }
             Console.ReadLine();
