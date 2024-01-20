@@ -51,29 +51,18 @@ namespace ConsoleApp001
 
             Console.WriteLine("\n\nAhmed's Big Giveaway");
             Console.WriteLine("Choose a door: 1, 2, or 3: ");
-            string userValue = Console.ReadLine();
+            string? userValue = Console.ReadLine();
 
+            string? prizeMessage = "";
             if (userValue == "1")
-            {
-                string prizeMessage = "You won a cupcake!";
-                Console.WriteLine(prizeMessage);
-            }
-
+                prizeMessage = "You won a cupcake!";
             else if (userValue == "2")
-            {
-                string prizeMessage = "You won ice cream!";
-                Console.WriteLine(prizeMessage);
-            }
+                prizeMessage = "You won ice cream!";
             else if (userValue == "3")
-            {
-                string prizeMessage = "You won a watch!";
-                Console.WriteLine(prizeMessage);
-            }
+                prizeMessage = "You won a watch!";
             else
-            {
-                string prizeMessage = "That's not the game. You lose.";
-                Console.WriteLine(prizeMessage);
-            }
+                prizeMessage = "Apologies. That's not the game.";
+            Console.WriteLine(prizeMessage);
             Console.ReadLine();
         }
     }
